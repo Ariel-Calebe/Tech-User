@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #696969;
+
+}
+
+a{
+
+    text-decoration: none;
+
+}
+
+header {
+
+    background-color: #505050;
+
+    height: 6vw;
+    z-index: 3;
+    position: sticky;
+    top: 0;
+    display: flex;
+
+    align-items: center;
+
+    transition: box-shadow 0.4s ease;
+}
+
+header:hover {
+
+    box-shadow: 0 2.5px 4px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+#nzxtP {
+
+position: absolute;
+left:5%;
+
+}
+
+#menu {
+
+    width: 7vw;
+
+    height: 7vh;
+
+    position: absolute;
+
+    left: 1vw;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+}
+
+#logo {
+
+    width: 6vw;
+
+
+}
+
+#centroLogo {
+
+    position: absolute;
+    left: 48%;
+
+
+}
+
+#FAQ {
+
+    position: absolute;
+    right: 1%;
+    width: 4vw;
+
+}
+
+::-webkit-scrollbar {
+
+    width: 0px;
+
+}
+
+#Escolha {
+
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 2.2vw;
+    margin: 5vw;
+    transition: opacity 0.4s ease-in-out;
+    user-select: none;
+    margin-top: 4vw;
+    position: absolute;
+
+}
+
+#seletor {
+
+    font-family: 'Lexend Exa', sans-serif;
+    position: absolute;
+    cursor: pointer;
+    font-size: 2.2vw;
+    transition: margin-left 1s ease-in-out;
+    margin-left: 35vw;
+    user-select: none;
+    margin-top: 4vw;
+
+}
+
+#fabrics {
+
+    position: absolute;
+    margin-top: 6.7vw;
+    margin-left: 1vw;
+    visibility: hidden;
+
+}
+
+#setaASRock {
+
+    width: 25vw;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+    margin-top: -2.5vw;
+    margin-left: 25.287vw;
+    position: absolute;
+
+}
+
+#setaAsus {
+
+    width: 25vw;
+    padding-top: 1.5vw;
+    position: absolute;
+    margin-left: 25.287vw;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+
+}
+
+#setaECS {
+
+    width: 25vw;
+    padding-top: 5.5vw;
+    position: absolute;
+    margin-left: 25.287vw;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+
+}
+
+#setaEVGA {
+
+    width: 25vw;
+    padding-top: 9.5vw;
+    transition: opacity 0.3s ease-in-out;
+    position: absolute;
+    margin-left: 25.287vw;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+
+}
+
+#setaGyga {
+
+    width: 25vw;
+    transition: opacity 0.3s ease-in-out;
+    padding-top: 13.5vw;
+    position: absolute;
+    margin-left: 25.287vw;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+
+}
+
+#setaNZXT {
+
+    width: 25vw;
+    padding-top: 17.5vw;
+    transition: opacity 0.3s ease-in-out;
+    position: absolute;
+    margin-left: 25.287vw;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+
+}
+
+#setaMSI {
+
+    width: 25vw;
+    padding-top: 21.5vw;
+    transition: opacity 0.3s ease-in-out;
+    position: absolute;
+    margin-left: 25.287vw;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+
+}
+
+
+#asrock {
+
+    font-family: 'Lexend Exa',sans-serif;
+    font-size: 1.7vw ;
+    position: absolute;
+    transition: opacity 0.45s ease-out, visibility 0.45s ease-out;
+    user-select: none;
+    cursor: pointer;
+    margin-left:36.8vw;
+    margin-top: 1.7vw;
+
+}
+
+#Asus {
+
+    font-family: 'Lexend Exa',sans-serif;
+    font-size: 1.7vw ;
+    position: absolute;
+    transition: opacity 0.45s ease-out, visibility 0.45s ease-out;
+    user-select: none;
+    cursor: pointer;
+    margin-left:36.8vw;
+    margin-top: 5.7vw;
+
+}
+#ECS {
+
+    font-family: 'Lexend Exa',sans-serif;
+    font-size: 1.7vw ;
+    position: absolute;
+    transition: opacity 0.45s ease-out, visibility 0.45s ease-out;
+    user-select: none;
+    cursor: pointer;
+    margin-left:36.8vw;
+    margin-top: 9.7vw;
+
+}
+#EVGA {
+
+    font-family: 'Lexend Exa',sans-serif;
+    font-size: 1.7vw ;
+    position: absolute;
+    user-select: none;
+    transition: opacity 0.45s ease-out, visibility 0.45s ease-out;
+    cursor: pointer;
+    margin-left:36.8vw;
+    margin-top: 13.7vw;
+
+}
+#Gyga {
+
+    font-family: 'Lexend Exa',sans-serif;
+    font-size: 1.7vw ;
+    position: absolute;
+    user-select: none;
+    cursor: pointer;
+    transition: opacity 0.45s ease-out, visibility 0.45s ease-out;
+    margin-left:36.8vw;
+    margin-top: 17.7vw;
+
+}
+#NZXT {
+
+    font-family: 'Lexend Exa',sans-serif;
+    font-size: 1.7vw ;
+    position: absolute;
+    user-select: none;  
+    transition: opacity 0.45s ease-out, visibility 0.45s ease-out;
+    cursor: pointer;
+    margin-left:36.8vw;
+    margin-top: 21.7vw;
+
+}
+#MSI {
+ 
+    font-family: 'Lexend Exa',sans-serif;
+    font-size: 1.7vw ;
+    position: absolute;
+    transition: opacity 0.45s ease-out, visibility 0.45s ease-out;
+    user-select: none;
+    cursor: pointer;
+    margin-left:36.8vw;
+    margin-top: 25.7vw;
+
+}
+
+.placas {
+
+    border-radius: 2.5vw;
+    transition: opacity 0.5s cubic-bezier(.26,.5,.89,.74) , box-shadow 0.5s ease-in-out;
+    width: 13vw;
+
+}
+
+.placas:hover {
+
+    box-shadow:#51017A -0.005vw 0px 2.4vw;
+
+}
+
+#container_NZXT {
+
+    width: 100%;
+    transition: opacity 0.7s cubic-bezier(.08,.18,.89,.77), visibility 0.7s cubic-bezier(.08,.18,.89,.77);
+    height: 100%;
+    line-height: 4vw;
+    letter-spacing: 1vw;
+    padding-top: 9vw;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+hr {
+
+    width: 100%;
+    margin: 0 auto;
+    border: 0px;
+    height: 0.7vh;
+    background-image: linear-gradient(to right, #505050 0%, #696969 50%, #505050 100%);
+
+}
+
+#rodape {
+
+    background-image: linear-gradient(to right, #696969 0%, #505050 50%, #696969 100%);
+    margin-top: 50vw    ;
+    text-align: center;
+
+
+}
+
+
+#desenvolvedor {
+
+    font-size: 1vw;
+    color: #aca195;
+    font-variant: small-caps;
+    font-family: 'Lexend Exa', sans-serif;
+
+}
+
+#copyright {
+
+    font-variant: none;
+    margin-left: 2.4vw;
+
+}
+
+#logoRodape {
+
+    height: 10vh;
+
+}

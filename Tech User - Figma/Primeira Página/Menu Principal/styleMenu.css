@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #696969;
+
+}
+
+header {
+
+    background-color: #505050;
+
+    height: 6vw;
+
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+
+    transition: box-shadow 0.4s ease;
+}
+
+header:hover {
+
+    box-shadow: 0 2.5px 4px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+#menu {
+
+    width: 7vw;
+
+    height: 7vh;
+
+    position: absolute;
+
+    left: 1vw;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+}
+
+#logo {
+
+    width: 6vw;
+
+    
+}
+
+#centroLogo {
+
+    position: absolute;
+    left: 48%;
+
+
+}
+
+#FAQ {
+
+    position: absolute;
+    right: 1%;
+    width: 4vw;
+
+}
+
+::-webkit-scrollbar {
+
+    width: 0px;
+
+}
+
+
+#processadores {
+
+    padding-top: 4vw;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+
+}
+
+a {
+
+    color: black;
+    text-decoration: none;
+
+}
+
+#LinkProcessador {
+
+    display: inline-block;
+
+}
+
+#TituloProcessador {
+
+    color : #aca195;
+    font-size: 2.4vw;
+    transition: font-size 0.3s ease, letter-spacing 0.5s ease-in-out;
+    font-family: 'Lexend Exa', sans-serif;
+
+}
+
+#TituloProcessador:hover {
+
+    font-size: 3vw;
+    letter-spacing: 0.5vw;
+
+}
+
+
+
+#FundoP {
+
+    margin-top: 3vw;
+    border-radius: 6.4vw;
+    width: 70vw;
+    transition: box-shadow 0.5s ease;
+
+}
+
+#FundoP:hover {
+
+    box-shadow: 0 2.5px 50px 20px #aca1959b;
+
+}
+
+#session {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.setas {
+
+    width: 4vw;
+    cursor: pointer;
+    height: 4vw;
+
+}   
+
+#direita {
+
+    margin-left: 2vw;
+
+}
+
+#esquerda {
+
+    margin-right: 2vw;
+
+}
